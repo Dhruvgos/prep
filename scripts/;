@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+
+name=$1
+
+if [ -z "$name" ]; then
+    echo "Usage: ./createuser.sh <username>"
+    exit 1
+fi
+
+ getent passwd "$name" && echo "User already exists" exit 0 || echo "User does not exists....Now Creating";
+
+	sudo adduser $name
+
+echo "User with name : "$name " created succesfully"

@@ -1,1 +1,1 @@
-hi, from new_branch
+hi, from new_branch and other branch.

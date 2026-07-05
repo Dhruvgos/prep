@@ -1,0 +1,40 @@
+2026-07-05 08:00:01 INFO AuthService User 'alice' logged in from 192.168.1.10
+2026-07-05 08:01:14 INFO InventoryService Product ID=1024 stock updated
+2026-07-05 08:02:37 WARNING DiskMonitor Disk usage reached 82% on /var
+2026-07-05 08:03:42 INFO PaymentService Payment ID=PAY1001 completed successfully
+2026-07-05 08:04:11 ERROR Database Connection timeout while connecting to db01
+2026-07-05 08:05:56 INFO AuthService User 'bob' logged in from 192.168.1.22
+2026-07-05 08:06:33 WARNING MemoryMonitor Memory usage reached 88%
+2026-07-05 08:07:02 INFO BackupService Backup started
+2026-07-05 08:08:19 ERROR BackupService Failed to archive /home/test/logs
+2026-07-05 08:09:47 INFO BackupService Backup completed
+2026-07-05 08:10:55 INFO WebServer GET /index.html 200
+2026-07-05 08:11:16 INFO WebServer GET /login 200
+2026-07-05 08:12:04 ERROR WebServer POST /login 500 Internal Server Error
+2026-07-05 08:13:21 INFO AuthService User 'charlie' logged out
+2026-07-05 08:14:09 WARNING CPUMonitor CPU usage reached 91%
+2026-07-05 08:15:17 INFO InventoryService Product ID=2034 stock updated
+2026-07-05 08:16:42 ERROR PaymentService Payment ID=PAY1002 failed: Card declined
+2026-07-05 08:17:55 INFO NotificationService Email sent to john@example.com
+2026-07-05 08:18:30 INFO Scheduler Daily cleanup started
+2026-07-05 08:19:14 INFO Scheduler Daily cleanup completed
+2026-07-05 08:20:05 WARNING DiskMonitor Disk usage reached 87% on /home
+2026-07-05 08:21:43 INFO WebServer GET /dashboard 200
+2026-07-05 08:22:17 ERROR AuthService Invalid login attempt for user 'admin'
+2026-07-05 08:23:59 INFO Database Query executed in 24 ms
+2026-07-05 08:24:35 INFO InventoryService Product ID=1007 stock updated
+2026-07-05 08:25:18 WARNING Network High latency detected (220 ms)
+2026-07-05 08:26:02 INFO PaymentService Payment ID=PAY1003 completed successfully
+2026-07-05 08:27:44 ERROR Database Deadlock detected in transaction TX8832
+2026-07-05 08:28:33 INFO AuthService User 'david' logged in from 10.0.0.18
+2026-07-05 08:29:57 INFO WebServer GET /reports 200
+2026-07-05 08:30:40 WARNING BackupService Backup duration exceeded threshold
+2026-07-05 08:31:26 INFO Scheduler Cache cleanup completed
+2026-07-05 08:32:11 ERROR DiskMonitor Disk full on /backup
+2026-07-05 08:33:52 INFO NotificationService SMS sent to +91XXXXXXXXXX
+2026-07-05 08:34:48 INFO AuthService User 'alice' logged out
+2026-07-05 08:35:20 WARNING Security Multiple failed login attempts detected
+2026-07-05 08:36:03 ERROR PaymentService Payment gateway unavailable
+2026-07-05 08:37:55 INFO WebServer GET /health 200
+2026-07-05 08:38:26 INFO Scheduler Report generation completed
+2026-07-05 08:39:41 INFO BackupService Backup verification successful
